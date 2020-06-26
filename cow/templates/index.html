@@ -1,0 +1,13 @@
+<h1>What did the Cowsay</h1>
+
+<pre> {{ cowsay_input }}</pre>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit!">
+</form>
+
+<a href="/Last10"><button>Last 10</button></a>
+    
+
+
